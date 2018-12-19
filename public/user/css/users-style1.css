@@ -1,0 +1,296 @@
+ 
+     @font-face {
+	 
+	    font-family: 'clanmedium';
+      src: url('../fonts/Clan-Medium.woff') format('woff');
+        
+     font-weight: normal;
+    font-style: normal;
+   }
+
+ 
+@font-face {
+  font-family: 'ClanPro-News';
+  src: url('../fonts/ClanPro-News.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+/*** form placeholder***/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   font-family: 'ClanPro-News';
+   color: #818181;
+  font-size:14px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+font-family: 'ClanPro-News';
+  color: #818181;
+  font-size:14px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+font-family: 'ClanPro-News';
+  color:#818181;
+  font-size:14px;
+}
+:-moz-placeholder { /* Firefox 18- */
+font-family: 'ClanPro-News';
+  color: #818181;
+  font-size:14px;
+}
+option{
+color: #818181 !important;
+font-family: 'ClanPro-News';
+font-size:14px;
+}
+select{
+color: #818181 !important;
+font-family: 'ClanPro-News';
+font-size:14px;
+}
+/***place holder end**/
+
+   
+   
+   
+   .silver{
+background-color: #f7f5f5;
+    padding: 50px 0;
+}
+
+
+
+.t-btn{
+ border-radius: 20px !important; 
+
+}
+.white-btn{
+    border: 1px solid #67a23e !important;
+    color:#67a23e !important;
+    background: #fff !important;
+
+font-family: 'ClanPro-News';
+font-size:14px;
+}
+.green-btn{
+    border: 1px solid #67a23e !important;
+    color:#fff !important;
+    background: #67a23e !important;
+
+font-family: 'ClanPro-News';
+font-size:14px;
+}
+.t-btn-grup{
+    text-align: center;
+}
+.t-form-group{
+    text-align: center !important;
+}
+.form-area .t-btn-grup .btn{
+ font-family: 'clanpronews';	
+}
+
+
+
+
+#tifin-head{
+    background-color:#fff;
+}
+#tifin-head .logo-area{
+    float:left;
+}
+.button-area{
+    float:right !important;
+	padding:18px;
+}
+.button-area ul li{
+   display: inline !important; 
+}
+
+.t-banner-form-area .t-btn-grup .btn{
+	    padding: 10px 60px;
+}
+
+
+
+#banner .form-area{
+  text-align: center;
+    background-color: #f7f5f5;
+        padding: 60px;
+}
+
+
+
+
+.switch6 .btn-primary{
+	    background-color: #67a23e;
+    border-radius: 20px;
+    top: 2px;
+	border:1px solid #67a23e;
+	color:#fff;
+	font-family: 'ClanPro-News';
+	font-size:24px;
+	
+}
+.switch6 .btn-primary a{
+	color:#fff !important;
+	
+}
+.switch6-light > span span{
+	color:#fff ;
+}
+
+
+.t-form-group .form-control{
+	border-radius:20px;
+	border:1px solid #67a23e;
+}
+.date-icon{
+	border-right:0px !important;
+}
+.calendar-icon-style{
+	    background-color: #fff;
+    border: 1px solid #67a23e;
+    border-radius:20px;
+	color:#67a23e;
+	border-left:0px;
+}
+.t-form-group .text-feild-height{
+	margin-top:24px;
+}
+.tfn-group-addon{
+	position: absolute;
+    right: 28px;
+    z-index: 2;
+    top: 31px;
+	color:#67a23e;
+}
+.hungry-img-content{
+width: 60%;
+   
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    height: 90px;
+}
+.hungry-img-content h3{
+	 font-family: 'clanmedium';
+	color:#fff;
+	text-align:left;
+	margin:0;
+	font-size:41px;
+}
+
+
+
+#banner .t-btn-grup{
+}
+.t-banner-form-area{
+	padding:60px;
+	text-align:center;
+}
+.order-btn{
+	background:#67a23e;
+	color:#fff;
+	border-radius:25px;
+	margin-top: 20px;
+}
+.hungry-img{
+ background: url(../images/banner-tifnlife.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+      height: 509px;
+}
+.hungry-img::before{
+position: absolute;
+    height: 100%;
+    z-index: 1;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(48,150,90,0.9);
+	
+}
+.hungry-img-content{
+	z-index:2;
+}
+.order-before{
+background: #67a23e;
+
+    position: relative;
+}
+.order-before h5{
+	font-family: 'clanmedium';
+	text-align:center;
+	padding:15px;
+	color:#fff;
+}
+.icon-style{
+	position:absolute;
+	padding: 8px;
+    right: 1px;
+    top: 24px;
+}
+
+
+
+
+.form-area .t-btn-grup .btn:nth-child(1) { 
+    font-family: 'clanpronews' !important;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    background-color: #67a23e;
+    border-color:#67a23e ;
+}
+.form-area .t-btn-grup .btn:nth-child(2) { 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0px ;
+    border-bottom-left-radius: 0px ;
+     background-color: #fff;
+    border-color:#67a23e ;
+    color:#67a23e ;
+}  
+
+
+
+/***check box style****/
+
+
+.switch6 {  max-width: 17em;  margin: 0 auto; }
+.switch6-light > span, .switch-toggle > span {  color: #000000; }
+.switch6-light span span, .switch6-light label, .switch-toggle span span, .switch-toggle label {  color: #2b2b2b; }
+
+.switch-toggle a, 
+.switch6-light span span { display: none; }
+
+.switch6-light { display: block; height: 30px; position: relative; overflow: visible; padding: 0px; margin-left:0px; }
+.switch6-light * { box-sizing: border-box; }
+.switch6-light a { display: block; transition: all 0.3s ease-out 0s; }
+
+.switch6-light label, 
+.switch6-light > span { line-height: 30px; vertical-align: middle;}
+
+.switch6-light label {font-weight: 700; margin-bottom: px; max-width: 100%;}
+
+.switch6-light input:focus ~ a, .switch6-light input:focus + label { outline: 1px dotted rgb(136, 136, 136); }
+.switch6-light input { position: absolute; opacity: 0; z-index: 5; }
+.switch6-light input:checked ~ a { right: 0%; }
+.switch6-light > span { position: absolute; left: -100px; width: 100%; margin: 0px; padding-right: 100px; text-align: left; }
+.switch6-light > span span { position: absolute; top: 0px; left: 0px; z-index: 5; display: block; width: 50%; margin-left: 100px; text-align: center; }
+.switch6-light > span span:last-child { left: 50%; }
+.switch6-light a { position: absolute; right: 50%; top: 0px; z-index: 4; display: block; width: 50%; height: 100%; padding: 0px; }
+
+  /***check box style end****/    

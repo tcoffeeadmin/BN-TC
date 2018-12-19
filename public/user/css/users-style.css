@@ -1,0 +1,714 @@
+@font-face {
+	 	 font-family:'clanmedium';
+	src:url('../fonts/Clan-Medium.woff') format('woff');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'ClanPro-News';
+	src:url('../fonts/ClanPro-News.woff') format('woff');
+	font-weight:normal;
+	font-style: normal;
+}
+/*** form placeholder***/
+.text-feild-height::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	font-family:'ClanPro-News';
+	color:#818181;
+	font-size:14px;
+}
+.text-feild-height::-moz-placeholder {
+	/* Firefox 19+*/
+	font-family:'ClanPro-News';
+	color:#818181;
+	font-size:14px;
+}
+.text-feild-height::-ms-input-placeholder {
+	/* IE 10+*/
+	font-family:'ClanPro-News';
+	color:#818181;
+	font-size:14px;
+}
+.text-feild-height::-moz-placeholder {
+	/* Firefox 18- */
+	font-family:'ClanPro-News';
+	color:#818181;
+	font-size:14px;
+}
+option {
+	color:#818181 !important;
+	font-family:'ClanPro-News';
+	font-size:14px;
+}
+select {
+	color:#818181 !important;
+	font-family:'ClanPro-News';
+	font-size:14px;
+}
+.radio-btn-style {
+	margin-bottom: 30px;
+}
+/***place holder end**/
+.logo-area {
+	width:50%;
+	float:left;
+}
+.button-area {
+	width:50%;
+	float:left;
+}
+.button-area ul {
+	float:right;
+}
+.silver {
+	background-color:#f7f5f5;
+	padding:64px 0;
+}
+.t-btn {
+	border-radius:20px !important;
+}
+.white-btn:focus,.green-btn:focus {
+	outline:none;
+}
+.white-btn {
+	border:1px solid #67a23e !important;
+	color:#67a23e !important;
+	background:#fff !important;
+	font-family:'ClanPro-News';
+	font-size:14px;
+}
+.green-btn {
+	border:1px solid #67a23e !important;
+	color:#fff !important;
+	background:#67a23e !important;
+	font-family:'ClanPro-News';
+	font-size:14px;
+}
+.t-btn-grup {
+	text-align:center;
+}
+.t-form-group {
+	text-align:center !important;
+}
+.form-area .t-btn-grup .btn {
+	font-family:'clanpronews';
+}
+#tifin-head {
+	background-color:#fff;
+}
+#tifin-head .logo-area {
+	float:left;
+}
+.button-area {
+	float:right !important;
+	padding:18px;
+}
+.button-area ul li {
+	display:inline !important;
+}
+.t-banner-form-area .t-btn-grup .btn {
+	 padding:10px 60px;
+}
+#banner .form-area {
+	text-align:center;
+	background-color:#f7f5f5;
+	padding:60px;
+}
+.switch6 .btn-primary {
+	 background-color:#67a23e;
+	border-radius:20px;
+	top:2px;
+	border:1px solid #67a23e;
+	color:#fff;
+	font-family:'ClanPro-News';
+	font-size:24px;
+}
+.switch6 .btn-primary a {
+	color:#fff !important;
+}
+.switch6-light>span span {
+	color:#fff;
+}
+.t-form-group .form-control {
+	color:#818181 !important;
+	font-family:'ClanPro-News';
+	font-size:19px;
+	border-radius:20px;
+	border:1px solid #67a23e;
+}
+.date-icon {
+	border-right:0px !important;
+}
+.calendar-icon-style {
+	 background-color:#fff;
+	border:1px solid #67a23e;
+	border-radius:20px;
+	color:#67a23e;
+	border-left:0px;
+}
+.t-form-group .text-feild-height {
+	margin-top:20px;
+}
+.tfn-group-addon {
+	position:absolute;
+	right:28px;
+	z-index:2;
+	top:31px;
+	color:#67a23e;
+}
+.hungry-img-content {
+	width:60%;
+	padding:20px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	margin:auto;
+	bottom:0;
+	height:90px;
+}
+.hungry-img-content h3 {
+	 font-family:'clanmedium';
+	color:#fff;
+	text-align:left;
+	margin:0;
+	font-size:41px;
+}
+#banner .t-btn-grup {
+}
+.t-banner-form-area {
+	padding:30px 60px 0px 60px;
+	text-align:center;
+}
+.order-btn {
+	color:#fff !important;
+	font-family:'ClanPro-News';
+	font-size:22px;
+	background:#67a23e;
+	color:#fff;
+	border-radius:25px;
+	margin-top:20px;
+	border:3px solid #00a651;
+}
+.order-btn:hover {
+	background:#fff;
+	color:#67a23e !important;
+	border:3px solid #67a23e;
+}
+.hungry-img {
+	background:url(../../../images/banner-tifnlife.gif) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	position:relative;
+	height:509px;
+}
+.hungry-img::before {
+	position:absolute;
+	height:100%;
+	z-index:1;
+	content:'';
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+	background-color:rgba(48,150,90,0.9);
+}
+.hungry-img-content {
+	z-index:2;
+}
+.order-before {
+	background:#67a23e;
+	position:relative;
+}
+.order-before h5 {
+	font-family:'ClanPro-News';
+	text-align:center;
+	padding:15px;
+	color:#fff;
+	font-size:25px;
+}
+.icon-style {
+	position:absolute;
+	padding:8px;
+	right:1px;
+	top:24px;
+}
+.form-area .t-btn-grup .btn:nth-child(1) {
+	font-family:'clanpronews' !important;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+	background-color:#67a23e;
+	border-color:#67a23e;
+}
+.form-area .t-btn-grup .btn:nth-child(2) {
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px;
+	background-color:#fff;
+	border-color:#67a23e;
+	color: #67a23e;
+}
+/*******food menu************/
+#food-items {
+	background:#fff;
+	padding-top:70px;
+	padding-bottom:60px;
+}
+.food-item-style {
+	position:relative;
+		padding:25px;
+		border:0px;
+	border-radius:20px;
+	-webkit-box-shadow:0px 0px 11px 0px rgba(0,0,0,0.26);
+	-moz-box-shadow:0px 0px 11px 0px rgba(0,0,0,0.26);
+	box-shadow:0px 0px 11px 0px rgba(0,0,0,0.26);
+	margin-bottom:40px;
+}
+.row-padd-botm {
+	padding-bottom:30px;
+}
+.caption-bkg-style {
+	margin-top:-21px;
+}
+.food-item-style img {
+	height:300px !important;
+}
+.caption-bkg-style {
+	background:#67a23e;
+	width:100%;
+	border-radius:20px;
+	padding:12px;
+	position:relative;
+	z-index:2;
+}
+.caption-bkg-style h3 {
+	font-family:'ClanPro-News';
+	text-transform:capitalize;
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+	margin:0px;
+}
+.caption-day-style p {
+	font-family:'ClanPro-News';
+	text-transform:capitalize;
+	font-size:16px;
+	color:#111;
+	text-align:center;
+	margin:0px;
+}
+.caption-day-style {
+	padding:12px;
+}
+.caption-style {
+	position:relative;
+	margin:auto;
+}
+.food-item-style .caption-style {
+	padding:0px;
+}
+.food-item-active {
+	background:#65a143;
+}
+.food-item-active .caption-bkg-style {
+	 background:#fff;
+}
+.food-item-active .caption-bkg-style h3 {
+	color:#000;
+}
+.food-item-active .caption-day-style p {
+	color: #fff;
+}
+/***********hedaer styles*****/
+.t-header {
+	font-family:'ClanPro-News';
+	font-size:32px;
+	text-align:center;
+	border-bottom: 0px;
+}
+/***************header style *********/
+/***************headlthy-homemade *********/
+#headlthy-homemade {
+	background:#f7f8f9;
+	padding-bottom:80px;
+	padding-top:80px;
+}
+.contet-style {
+	padding:44px 6px;
+}
+.contet-style p {
+	font-family:'ClanPro-News';
+	font-size:20px;
+	color:#000;
+	line-height:36px;
+}
+.contet-img-style {
+	padding: 0px 12px;
+}
+/*************efficient*****/
+#efficient {
+	background:#fff;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+#efficient .thumbnail-style {
+	border:none;
+	text-align:center;
+}
+.green-round {
+	position:relative;
+	background-color:#67a23e;
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	display:inline-block;
+}
+.green-round img {
+	width:86px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	margin:auto;
+	bottom:0;
+}
+.thumbnail-style h4 {
+	font-family:'ClanPro-News';
+	 text-transform:uppercase;
+	color:#000;
+	font-size: 16px;
+}
+/************buton thumbnail*********/
+/* The container */
+#radio-btn-style-1 {
+	text-align:center;
+}
+#radio-btn-style-1 .box {
+	display:block;
+	position:relative;
+	padding-left:100px;
+	margin-bottom:12px;
+	cursor:pointer;
+	font-size:22px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select: none;
+}
+/* Hide the browser's default radio button */
+#radio-btn-style-1 .box input {
+	position:absolute;
+	opacity:0;
+	cursor: pointer;
+}
+/* Create a custom radio button */
+#radio-btn-style-1 .checkmark {
+	position:absolute;
+	font-size:22px;
+	top:0;
+	left:0;
+	height:25px;
+	width:205px;
+	background-color:transparent;
+}
+#radio-btn-style-1 .one {
+	position:absolute;
+	left:20px;
+	right: 0;
+}
+/* On mouse-over,add a grey background color */
+#radio-btn-style-1 .box:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+/* When the radio button is checked,add a blue background */
+#radio-btn-style-1 .box input:checked ~ .checkmark {
+	background-color:#2196F3;
+	color: #fff;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+#radio-btn-style-1 .checkmark:after {
+	content:"";
+	position:absolute;
+	display: none;
+}
+/* Show the indicator (dot/circle) when checked */
+#radio-btn-style-1 .box input:checked ~ .checkmark:after {
+	display: none;
+}
+/* Style the indicator (dot/circle) */
+#radio-btn-style-1 .box .checkmark:after {
+		top:9px;
+	left:9px;
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background:white;
+}
+#radio-btn-style-1 .radio-btn-style li {
+	display:inline-block;
+	width:200px;
+	/**padding:9px 36px;***/
+}
+#radio-btn-style-1 .left-radius {
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+}
+#radio-btn-style-1 .right-radius {
+	border-top-right-radius:25px;
+	border-bottom-right-radius:25px;
+}
+#radio-btn-style-1 .checkmark:after {
+	content:"";
+	position:relative;
+	display:none;
+	width:204px !important;
+}
+#radio-btn-style-1 .box input {
+	background-color:#2196F3;
+	color:#fff;
+	text-align:center;
+}
+#radio-btn-style-1 .checkmark {
+	font-family:'ClanPro-News';
+	color:#707070;
+	font-size:22px;
+	text-align:center;
+	border:1px solid #67a23e;
+	padding:10px;
+	height:50px;
+	width:205px;
+}
+#radio-btn-style-1 .box input:checked ~ .checkmark {
+	font-family:'ClanPro-News';
+	color:#fff;
+	background-color:#67a23e;
+	height: 50px;
+}
+/***hover style*****/
+.column:last-child {
+	padding-bottom:60px;
+}
+.column::after {
+	content:'';
+	clear:both;
+	display:block;
+}
+.column div {
+	position:relative;
+	float:left;
+	width:300px;
+	height:200px;
+	margin:0 0 0 25px;
+	padding:0;
+}
+.column div:first-child {
+	margin-left:0;
+}
+.column div span {
+	position:absolute;
+	bottom:-20px;
+	left:0;
+	z-index:-1;
+	display:block;
+	width:300px;
+	margin:0;
+	padding:0;
+	color:#444;
+	font-size:18px;
+	text-decoration:none;
+	text-align:center;
+	-webkit-transition:.3s ease-in-out;
+	transition:.3s ease-in-out;
+	opacity:0;
+}
+figure {
+	margin:0;
+	padding:0;
+	background:#fff;
+	overflow:hidden;
+}
+figure:hover+span {
+	bottom:-36px;
+	opacity: 1;
+}
+/* Shine */
+.hover14 figure {
+	position:relative;
+	border-radius:50% !important;
+}
+.hover14 figure::before {
+	position:absolute;
+	top:0;
+	left:-75%;
+	z-index:2;
+	display:block;
+	content:'';
+	width:50%;
+	height:100%;
+	background:-webkit-linear-gradient(left,rgba(255,255,255,0) 0%,rgba(255,255,255,.3) 100%);
+	background:linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,.3) 100%);
+	-webkit-transform:skewX(-25deg);
+	transform:skewX(-25deg);
+}
+.hover14 figure:hover::before {
+	-webkit-animation:shine .75s;
+	animation:shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+			left:125%;
+	}
+}
+@keyframes shine {
+	100% {
+			left: 125%;
+	}
+}
+/********** footer************/
+#footer {
+	background:#333333;
+}
+#footer .copy-right {
+	border-top:2px solid #fff;
+	width:100%;
+	float:left;
+}
+#footer .copy-right p {
+	color:#fff;
+	font-family:'ClanPro-News';
+	font-size:14px;
+	text-align:center;
+	padding:12px 0px 0px;
+}
+#footer .footer-links ul {
+	padding-top:25px;
+	float:right;
+}
+#footer .footer-links ul a {
+	font-family:'ClanPro-News';
+	color:#fff;
+	font-size:14px;
+}
+#footer .footer-links ul li {
+	display:inline-block;
+	float:left;
+	padding-left:17px;
+	position:relative;
+	margin-left:20px;
+}
+#footer .footer-links ul li:hover a {
+	text-decoration:none;
+	color:#08893a;
+}
+#footer .footer-logo {
+	padding-left:70px;
+}
+#footer .footer-links {
+	padding-right:70px;
+	position:relative;
+}
+#footer .footer-links li:before {
+	font-family:FontAwesome;
+	content:"\f111";
+	color:#fff;
+	position:absolute;
+	font-size:7px;
+	top:7px;
+	left:0;
+}
+#footer .footer-main-content-pad {
+		padding:50px 0;
+}
+.row-eq-height {
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display: flex;
+}
+/********circle*******/
+.circle-img-bkg {
+	margin:0 auto;
+	width:273px;
+	height:273px;
+	background-position:top center;
+	background-size:150px 150px;
+}
+.circle-img-bkg.bkg-img-1 {
+	background:url(../../../images/food-item-1.jpg);
+}
+.circle-img-bkg.bkg-img-2 {
+	background:url(../../../images/food-item-2.jpg);
+}
+.circle-img-bkg.bkg-img-3 {
+	background:url(../../../images/food-item-3.jpg);
+}
+.circle-img-bkg.bkg-img-4 {
+	background:url(../../../images/food-item-4.jpg);
+}
+.circle-img-bkg.bkg-img-5 {
+	background:url(../../../images/food-item-5.jpg);
+	background-position:center;
+}
+.circle-img-bkg.bkg-img-6 {
+	background: url(../../../images/food-item-6.jpg);
+}
+/*************************media query*************************/
+@media only screen and (max-width:1199px) {
+	#radio-btn-style-1 .radio-btn-style li {
+		display:inline-block;
+		width: 186px !important;
+	}
+	/****food item**/
+	.circle-img-bkg {
+		width:241px;
+		height:241px;
+	}
+}
+@media only screen and (max-width:991px) {
+		 .t-form-group .form-control {
+			 font-size:15px;
+	}
+	 .order-btn {
+			 font-size:16px;
+	}
+	.hungry-img-content {
+			width:90%;
+	}
+	.hungry-img-content h3 {
+			font-size:35px;
+	}
+	.footer-logo img {
+			margin:0 auto;
+	}
+	#footer .footer-logo {
+		padding-left:0px;
+	}
+	#footer .footer-links ul {
+		width:75%;
+		margin:auto !important;
+	}
+	#footer .footer-links {
+			width:100%;
+	}
+}
+@media only screen and (max-width:574px) {
+	#radio-btn-style-1 .radio-btn-style li {
+		width:98px !important;
+	}
+	#radio-btn-style-1 .checkmark {
+		width:108px !important;
+		font-size:19px !important;
+	}
+}
+@media only screen and (max-width:523px) {
+	#radio-btn-style-1 .radio-btn-style li {
+		width:!important;
+	}
+}
+@media only screen and (max-width: 348px) {
+	.res-size {
+	}
+}

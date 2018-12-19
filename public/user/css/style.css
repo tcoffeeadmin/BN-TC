@@ -1,0 +1,301 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 Jul, 2018, 10:36:46 AM
+    Author     : user
+*/
+@font-face {
+    font-family: 'lexia_damaregular';
+    src: url('../fonts/lexia_dama_regular-webfont.woff2') format('woff2'),
+         url('../fonts/lexia_dama_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lexia_damabold';
+    src: url('../fonts/lexia_dama_bold-webfont.woff2') format('woff2'),
+         url('../fonts/lexia_dama_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+	font-family: 'lexia_damabold';
+
+}
+
+.rem-pad{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+.navigation-bar{
+	background:none !important;
+	margin-bottom:0 !important;
+	    padding: 5px 0;
+}
+.logo .navbar-brand{
+	height:auto;
+}
+.logo .navbar-brand img{
+	width:166px;
+}
+.cta li:first-child{
+	margin-top:15px;
+    font-size: 18px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+}
+.cta button{
+	padding: 11.2px;
+	font-size:18px;
+    width: auto;
+    background: #128a44;
+    color: #fff;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transform-origin: 0 0;
+    box-shadow: 0px 0px 1px;
+}
+.cta button:hover{
+background: #f9e804; 
+}
+
+.hungry{
+    text-align: center;
+	padding: 54px 0;
+
+}
+.hungry img{
+    display: inline-block;
+    padding: 0 15px;
+	width:540px;
+}
+.message-box{
+	 background-color: #f9e804;
+	 padding:50px 0;
+}
+
+.yellow{
+   
+    padding: 130px 110px; 
+	}
+.yellow p{
+    font-family: 'lexia_damabold';
+    font-size: 14px;
+    color:#262a25;
+    text-align: justify;
+}
+.yellow h6 {
+    
+    font-size: 14px;
+    color: #262a25;
+    text-align: justify;
+    font-family: 'lexia_damabold';
+}
+.menu{
+    position: relative;
+    background-image: url(../images/bg.jpg);
+   
+    width: 100%;
+    height: auto;
+
+}
+.menu::before{
+     background-color: rgba(168, 180, 56, 0.77);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.menu-list{
+    padding: 50px 0px;
+}
+.menu-list h3{
+   font-family: 'lexia_damabold';
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center; 
+}
+.menu-list h4{
+    font-family: 'lexia_damabold';
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    padding-top: 5px;
+}
+.menu-list p{
+     font-family: 'lexia_damabold';
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+}
+#mc-embedded-subscribe-form{
+	font-family: 'lexia_damabold'!important;
+}
+#mc-embedded-subscribe-form .button{
+	padding: 11.2px !important;
+    font-size: 18px !important;
+    width: auto!important;
+    background: #128a44 !important;
+    color: #fff !important;
+    -webkit-transition-duration: 0.5s !important;
+    -webkit-transition-timing-function: ease-out!important;
+    -webkit-transform-origin: 0 0!important;
+    box-shadow: 0px 0px 1px!important;
+	height:auto !important;
+}
+#mc-embedded-subscribe-form .button:hover{
+	background: #f9e804!important; 
+}
+#mc_embed_signup .clear {
+    clear: both;
+    text-align: center;
+}
+#mc_embed_signup div.response {
+ 
+    width: 100%!important; 
+}
+.footer-top{
+    background-color: #a8b51b;
+    padding: 17px 0px 6px 0px;
+}
+
+.footer{
+        width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+}
+.footer li{
+    font-family: 'lexia_damabold';
+    padding: 0px 12px;
+    border-right: 1px solid #000000;
+    display: inline-block;
+    font-size: 14px;
+}
+.footer li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+}
+.footer li a:hover{
+    color: #ffffff;
+}
+.footer-top .footer li:last-child{
+    border: none;
+}
+.contacts {
+    padding: 50px 0px 50px 0px;
+}
+.contacts h3{
+   font-family: 'lexia_damabold';
+   font-size: 30px;
+   text-align: center;
+   color: #000000;
+}
+@media (max-width: 1199px){
+  .footer li {
+    padding: 0px 9px;
+    font-size: 13px;
+}  
+
+}
+@media (max-width: 991px){
+
+.yellow {
+    padding: 76px 80px;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+}
+.contacts h3 {
+    font-size: 25px;
+}
+}
+@media (max-width: 767px){
+  .yellow {
+    padding: 50px 40px 40px 40px;
+}
+.footer li {
+  
+    border:none;
+  
+}
+.xs-button{
+	padding: 8.2px;
+    font-size: 13px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 12px;
+    width: auto;
+    background: #128a44;
+    color: #fff;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transform-origin: 0 0;
+    box-shadow: 0px 0px 1px;
+}
+.xs-button:hover{
+	background: #f9e804;
+}
+.xs-phone{
+	width:100%;
+	padding:10px 0;
+	background: #f9e804;
+	text-align:center;
+}
+.xs-phone a{
+	color:#000;
+}
+#mc-embedded-subscribe-form .button{
+	margin-top:15px !important;
+	
+}
+}
+@media (max-width: 574px){
+    .hungry img {
+    padding-top: 0px;
+    width: 100%;
+}
+.yellow{
+    padding:0 25px;
+}
+.menu-list h4 {
+    font-size: 18px;
+}
+  .menu-list h4 {
+    font-size: 17px;      
+}
+.footer ul{
+    text-align: center;
+}
+.footer li{
+    width: 100%;
+}
+.contact li {
+    margin-left: 95px;
+    
+}
+.logo .navbar-brand img {
+    width: 100px;
+}
+}
